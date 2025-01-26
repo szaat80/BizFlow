@@ -1,0 +1,92 @@
+/* main.qss */
+
+/* [DEBUG] QSS: Alap stílusok betöltése */
+QWidget {
+    background: qlineargradient(
+        spread:pad, x1:0, y1:0, x2:1, y2:1,
+        stop:0 rgba(173, 216, 230, 255),  /* világoskék */
+        stop:1 rgba(255, 255, 255, 255)   /* fehér */
+    );
+}
+
+/* [DEBUG] QSS: MainWindow stílusok */
+QMainWindow {
+    border: none;
+    background: transparent;
+}
+
+/* [DEBUG] QSS: LeftPanel stílusok */
+#leftPanel {
+    background-color: transparent;
+    min-width: 60px;
+    max-width: 60px;
+    margin: 5px;
+    border: none;
+}
+
+/* [DEBUG] QSS: RightPanel stílusok */
+#rightPanel {
+    background-color: transparent;
+    margin: 5px;
+    border: none;
+}
+
+/* [DEBUG] QSS: IconButton stílusok */
+#iconButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#iconButton:hover {
+    background-color: rgba(255, 255, 255, 150);
+    border: 2px solid rgba(37, 99, 235, 0.5);
+}
+
+/* [DEBUG] QSS: MenuButton stílusok */
+#menuButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 2px;
+}
+
+#menuButton:hover {
+    background-color: rgba(255, 255, 255, 150);
+    border: 2px solid rgba(37, 99, 235, 0.5);
+}
+
+/* [DEBUG] QSS: MenuDialog stílusok */
+QDialog {
+    background-color: rgba(255, 255, 255, 220);
+    border: 2px solid rgba(37, 99, 235, 0.5);
+    border-radius: 10px;
+}
+
+QDialog QPushButton {
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+    color: #2563eb;
+    text-align: left;
+}
+
+QDialog QPushButton:hover {
+    background-color: rgba(37, 99, 235, 0.1);
+}
+
+/* [DEBUG] QSS: Tooltip stílusok */
+QToolTip {
+    background-color: #2563eb;
+    color: white;
+    border: 1px solid #1d4ed8;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+/* [DEBUG] QSS: Stílusok betöltése kész */

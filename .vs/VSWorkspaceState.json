@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\app",
+    "\\app\\ui",
+    "\\app\\ui\\components",
+    "\\app\\ui\\layouts",
+    "\\app\\ui\\panels",
+    "\\app\\ui\\widgets"
+  ],
+  "SelectedNode": "\\app\\ui\\widgets\\menu_widget.py",
+  "PreviewInSolutionExplorer": false
+}
